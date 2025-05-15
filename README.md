@@ -15,9 +15,9 @@ This file is part of the Gedit source code and handles the logic and UI for the 
 2) Added a new Function called - on_list_similar_files_toggled()  
 A function named on_list_similar_files_toggled() is implemented to define the behavior when the checkbox is toggled.  
 
-i)Prompts the user to enter a directory path and file extension. 
-ii)Uses the find shell command to search for matching files. 
-iii)Collects and displays those filenames along with paths. 
+i)Prompts the user to enter a directory path and file extension.  
+ii)Uses the find shell command to search for matching files.  
+iii)Collects and displays those filenames along with paths.  
 
 3) Created and Attached the New Checkbox in the Dialog UI 
 i)Initializes the checkbox with the label "List similar file types" 
@@ -26,13 +26,13 @@ iii)At Binded the "toggled" event of the checkbox to the on_list_similar_files_t
 
 ## How to run & test the implemented functionality. 
 1) Download the gedit source file with version gedit-3.30.0
-2) Configure the source file using commond
-    ``` ./configure ```
-3) Compile the source code
-    ``` sudo make  ```
-4) Install the compile binaries file to standard system path to execute the gedit globally.
-    ``` sudo make install ```
-5) Test the gedit from its build directory
+2) Configure the source file using command 
+    ``` ./configure  --disable-spell```
+3) Compile the source code  
+    ``` sudo make  ```  
+4) Install the compile binaries file to standard system path to execute the gedit globally.  
+    ``` sudo make install ```  
+5) Test the gedit from its build directory  
    ``` ./gedit ```
     
      
