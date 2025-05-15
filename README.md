@@ -3,7 +3,7 @@
 ### Subject - SPC
 ### Task - Adding Custom feature to exsiting GTK Source Code.
 
-# Adding a Custom Feature - To list similar File type in Find & Replace Dialog in Gedit Editor.
+# Adding a Custom Feature - To list similar File type in Find & Replace Dialog in Gedit version 3.30.0
 The objective of this is to extend the functionality of the "Find and Replace" dialog in Gedit (GNOME Text Editor) by introducing a "List similar file types" feature. This feature allows users to list all files within a specified directory that match the current file’s extension, making it easier to work with multiple related files.
 
 ## File Worked on - gedit-replace-dialog.c
