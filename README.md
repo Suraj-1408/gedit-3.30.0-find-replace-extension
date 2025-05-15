@@ -3,7 +3,7 @@
 ### Subject - SPC
 ### Task - Adding Custom feature to exsiting GTK Source Code.
 
-# Adding a Custom Feature - To list similar File type in Find & Replace Dialog in Gedit version 3.30.0
+# Adding a Custom Feature - To list similar File type in Find & Replace Dialog of Gedit version 3.30.0
 The objective of this is to extend the functionality of the "Find and Replace" dialog in Gedit (GNOME Text Editor) by introducing a "List similar file types" feature. This feature allows users to list all files within a specified directory that match the current file’s extension, making it easier to work with multiple related files.
 
 ## File Worked on - gedit-replace-dialog.c
@@ -34,6 +34,12 @@ iii)At Binded the "toggled" event of the checkbox to the on_list_similar_files_t
     ``` sudo make install ```  
 5) Test the gedit from its build directory  
    ``` ./gedit ```
-    
+
+
+## Output 
+1) CheckBox with List similar file type inside Find & Replace dialog
+2) On click of that checkbox , a dialog box appear asking to enter File path & File type to be searched for.
+3) The result dialog box with all same file types.
+
      
 
