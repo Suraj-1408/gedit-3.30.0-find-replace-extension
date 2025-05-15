@@ -40,10 +40,10 @@ iii)At Binded the "toggled" event of the checkbox to the on_list_similar_files_t
 1) CheckBox with List similar file type inside Find & Replace dialog
 ![Checkbox Added](assets/checkbox_addition.png)
 
-2) On click of that checkbox , a dialog box appear asking to enter File path & File type to be searched for.
-![Input Dialog Box](assets/input-dialog-box.png)  
+2) On click of that checkbox, a dialog box appears asking to enter File path & File type to be searched for.  
+![Input Dialog Box](assets/input-dialog-box.png)
 
-3) The result dialog box with all same file types. 
+3) The result dialog box with all same file types.  
 ![Output Dialog Box](assets/output-dialog-box.png)
 
      
